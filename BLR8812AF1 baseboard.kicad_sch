@@ -2533,6 +2533,12 @@
 		(uuid "36b6e2d5-2409-4072-9d4f-9498ec6b526b")
 	)
 	(junction
+		(at 142.24 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3cd1bf75-8ffa-477d-95c2-2642e5d7e0a0")
+	)
+	(junction
 		(at 46.99 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2760,6 +2766,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 148.59) (xy 152.4 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c837641-33c8-4104-b1e7-6929ae10027a")
+	)
+	(wire
+		(pts
 			(xy 132.08 69.85) (xy 129.54 69.85)
 		)
 		(stroke
@@ -2777,6 +2793,16 @@
 			(type default)
 		)
 		(uuid "0ee5894f-048e-464a-b03a-ba1573b3414b")
+	)
+	(wire
+		(pts
+			(xy 152.4 132.08) (xy 152.4 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fd7db5f-6240-4a99-8d2c-d63380bcf58b")
 	)
 	(wire
 		(pts
@@ -2850,6 +2876,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 127) (xy 142.24 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20f257fe-e1d3-478f-bed5-a2734f641b61")
+	)
+	(wire
+		(pts
 			(xy 142.24 124.46) (xy 142.24 127)
 		)
 		(stroke
@@ -2877,6 +2913,16 @@
 			(type default)
 		)
 		(uuid "23fd8349-3225-4e0d-b26f-638be5502e59")
+	)
+	(wire
+		(pts
+			(xy 152.4 139.7) (xy 152.4 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26dcbc48-c0d7-4045-a5a2-79bfe910b5ec")
 	)
 	(wire
 		(pts
@@ -3177,6 +3223,16 @@
 			(type default)
 		)
 		(uuid "658f1a0e-7567-4ad2-bfa6-2b11c06b6af6")
+	)
+	(wire
+		(pts
+			(xy 152.4 153.67) (xy 142.24 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6861e1df-76c4-4296-9e3f-c3768002a0a4")
 	)
 	(wire
 		(pts
@@ -3858,6 +3914,28 @@
 		)
 		(uuid "fcdef89d-299f-4293-9ca5-9ef89106b2ca")
 	)
+	(label "D2_P"
+		(at 106.68 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "09b02e60-f471-4729-92a5-fc999a691892")
+	)
+	(label "D2_N"
+		(at 106.68 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "40106246-be58-4a6d-a7e7-bb2a48e1e2e0")
+	)
 	(label "DP"
 		(at 177.8 57.15 180)
 		(fields_autoplaced yes)
@@ -3868,6 +3946,17 @@
 			(justify right bottom)
 		)
 		(uuid "53e52dff-3c93-4e55-8333-40572cb3796e")
+	)
+	(label "D1_P"
+		(at 88.9 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c7bec41-a758-42a7-80ae-88a344e4f9bf")
 	)
 	(label "DN"
 		(at 72.39 40.64 0)
@@ -3901,6 +3990,17 @@
 			(justify right bottom)
 		)
 		(uuid "abad385e-f13b-4420-bb5c-771a1e1498cc")
+	)
+	(label "D1_N"
+		(at 88.9 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bf9f0c2f-a52a-4a37-8e3e-ce230a30312e")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
@@ -4624,6 +4724,73 @@
 			(project "BLR8812AF1 baseboard"
 				(path "/eaa389b1-c28c-408b-8713-22e94bf6c980"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 152.4 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2d8467e4-1403-4ada-8a4d-bdd98a15813b")
+		(property "Reference" "D2"
+			(at 155.194 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DNP"
+			(at 149.86 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 152.4 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 152.4 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4f71e610-3a0b-4764-9abc-f26274ce79db")
+		)
+		(pin "1"
+			(uuid "72059082-9b5e-48e4-9409-ceed4cf1dc47")
+		)
+		(instances
+			(project "BLR8812AF1 baseboard"
+				(path "/eaa389b1-c28c-408b-8713-22e94bf6c980"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -6099,6 +6266,73 @@
 			(project "BLR8812AF1 baseboard"
 				(path "/eaa389b1-c28c-408b-8713-22e94bf6c980"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 152.4 135.89 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af51a20c-8b19-413a-8821-5fc0a2adfbc6")
+		(property "Reference" "R10"
+			(at 150.114 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DNP"
+			(at 154.94 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 154.178 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 152.4 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9b8e2c4-dc05-4225-b254-1596bbaedc05")
+		)
+		(pin "2"
+			(uuid "e3566ae6-ae3f-46b6-a6b7-55cf73618244")
+		)
+		(instances
+			(project "BLR8812AF1 baseboard"
+				(path "/eaa389b1-c28c-408b-8713-22e94bf6c980"
+					(reference "R10")
 					(unit 1)
 				)
 			)
