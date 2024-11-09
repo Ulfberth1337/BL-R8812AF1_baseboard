@@ -4472,15 +4472,15 @@
 		(dnp no)
 		(uuid "1b0ce4be-0de2-48d0-8f20-4fcce1d7a7df")
 		(property "Reference" "R3"
-			(at 120.65 48.006 90)
+			(at 120.65 43.434 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "DNP"
-			(at 120.65 43.18 90)
+		(property "Value" "1k"
+			(at 120.65 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4619,7 +4619,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_LGA:Texas_SIL0008D_MicroSiP-8-1EP_2.8x3mm_P0.65mm_EP1.1x1.9mm_ThermalVias"
+		(property "Footprint" "Package_LGA:Texas_SIL0008D_MicroSiP-8-1EP_2.8x3mm_P0.65mm_EP1.1x1.9mm"
 			(at 130.81 119.38 0)
 			(effects
 				(font
@@ -4832,8 +4832,8 @@
 				)
 			)
 		)
-		(property "Value" "DNP"
-			(at 172.72 102.87 90)
+		(property "Value" "1k"
+			(at 172.466 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
