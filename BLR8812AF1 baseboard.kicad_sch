@@ -2866,6 +2866,12 @@
 		(uuid "515ee5b0-0555-4d4c-b622-410c4219ca06")
 	)
 	(junction
+		(at 102.87 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a172087-0988-4431-8e1b-c1b5af201fde")
+	)
+	(junction
 		(at 66.04 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2894,12 +2900,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "95ad1456-19df-4cb1-bc93-4333b9068ac4")
-	)
-	(junction
-		(at 102.87 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a96c12cc-bfd1-4570-b1aa-762712eb8473")
 	)
 	(junction
 		(at 115.57 34.29)
@@ -3116,16 +3116,6 @@
 			(type default)
 		)
 		(uuid "1c4f10df-d814-4a4e-b802-3326d226db98")
-	)
-	(wire
-		(pts
-			(xy 100.33 97.79) (xy 102.87 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f07ced8-7ce5-4b9c-96ef-48e06be6413c")
 	)
 	(wire
 		(pts
@@ -3569,6 +3559,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 105.41) (xy 95.25 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cdaafa4-8e51-4652-b8a1-c364e7d98aca")
+	)
+	(wire
+		(pts
 			(xy 144.78 59.69) (xy 144.78 69.85)
 		)
 		(stroke
@@ -3626,16 +3626,6 @@
 			(type default)
 		)
 		(uuid "ad398ae3-b068-42ab-8758-fab483969645")
-	)
-	(wire
-		(pts
-			(xy 95.25 105.41) (xy 95.25 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aefdb836-58ca-44e7-926f-a723f1962598")
 	)
 	(wire
 		(pts
@@ -3709,6 +3699,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 97.79) (xy 102.87 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5e5807d-d07f-4407-b148-a873a7ea925d")
+	)
+	(wire
+		(pts
 			(xy 170.18 106.68) (xy 170.18 107.95)
 		)
 		(stroke
@@ -3749,16 +3749,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 97.79) (xy 90.17 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d045903a-6a8e-4b93-b88b-7c42d51acbc8")
-	)
-	(wire
-		(pts
 			(xy 116.84 45.72) (xy 115.57 45.72)
 		)
 		(stroke
@@ -3776,6 +3766,16 @@
 			(type default)
 		)
 		(uuid "d4771f25-8fc3-47b3-9f3a-3cd810cd684d")
+	)
+	(wire
+		(pts
+			(xy 87.63 97.79) (xy 90.17 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6759983-b503-48f7-91cd-31deb81c3a6e")
 	)
 	(wire
 		(pts
@@ -6007,8 +6007,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:AO3401A")
-		(at 95.25 100.33 270)
-		(mirror x)
+		(at 95.25 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6032,7 +6031,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 93.345 95.25 0)
+			(at 97.155 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6043,7 +6042,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
-			(at 91.44 95.25 0)
+			(at 99.06 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
